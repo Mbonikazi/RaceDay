@@ -81,6 +81,8 @@ GitHub Actions builds and tests on every push/PR to `main`.
 
 ###  Screenshot
 ![image alt](https://github.com/Mbonikazi/RaceDay/blob/42aa11453932c92f21703b006ae296fa48b179c9/Screenshot%202026-10-09%20140747.png)
-
+![image alt]()
+![image alt]()
+![image alt]()
 ## Video Presentation
 Unlisted YouTube: [https://youtu.be/akRExinh8xA](https://youtu.be/akRExinh8xA)
