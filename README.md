@@ -79,8 +79,8 @@ dotnet test
 ## CI/CD
 GitHub Actions builds and tests on every push/PR to `main`.
 
-### GitHub Actions Screenshot
-![Green Build](docs/green-build.png)
+###  Screenshot
+![image alt](https://github.com/Mbonikazi/RaceDay/blob/42aa11453932c92f21703b006ae296fa48b179c9/Screenshot%202026-10-09%20140747.png)
 
 ## Video Presentation
 Unlisted YouTube: [https://youtu.be/akRExinh8xA](https://youtu.be/akRExinh8xA)
