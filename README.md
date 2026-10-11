@@ -88,8 +88,22 @@ The test project **`RaceDay.Api.Tests`** uses **xUnit** with **EF Core InMemory*
 | `RoleAndSessionTests.cs` | Role enforcement, session keys, access rules |
 | `ModelRelationshipTests.cs` | Entity relationships (1-to-many, 1-to-1), ownership rules |
 
-## CI/CD
-GitHub Actions builds and tests on every push/PR to `main`.
+## ⚙️ CI/CD – GitHub Actions
+
+The repository includes a CI workflow at `.github/workflows/ci.yml`. It runs automatically on every push and pull request to `master` or `main`.
+
+### Workflow Steps
+
+1. ✅ Checkout repository
+2. ✅ Setup .NET 8 SDK
+3. ✅ Restore NuGet packages
+4. ✅ Build solution in Release mode
+5. ✅ Run all unit tests
+
+### Green Build
+
+You can view the workflow history on the ![image alt]()
+
 
 ###  Screenshot
 ![image alt](https://github.com/Mbonikazi/RaceDay/blob/42aa11453932c92f21703b006ae296fa48b179c9/Screenshot%202026-10-09%20140747.png)
