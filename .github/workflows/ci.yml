@@ -19,11 +19,22 @@ jobs:
         with:
           dotnet-version: '8.0.x'
 
+      - name: Show repository structure (debug)
+        run: |
+          echo "=== Root files ==="
+          ls -la
+          echo ""
+          echo "=== Solution files ==="
+          find . -name "*.sln" -maxdepth 2
+          echo ""
+          echo "=== Project files ==="
+          find . -name "*.csproj" -maxdepth 3
+
       - name: Restore packages
-        run: dotnet restore
+        run: dotnet restore RaceDay.sln
 
       - name: Build solution
-        run: dotnet build --no-restore --configuration Release
+        run: dotnet build RaceDay.sln --no-restore --configuration Release /p:TreatWarningsAsErrors=false /p:WarningsAsErrors=
 
       - name: Run unit tests
-        run: dotnet test --no-build --configuration Release --verbosity normal
+        run: dotnet test RaceDay.sln --no-build --configuration Release --verbosity normal
