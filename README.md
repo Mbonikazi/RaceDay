@@ -102,11 +102,11 @@ The repository includes a CI workflow at `.github/workflows/ci.yml`. It runs aut
 
 ### Green Build
 
-You can view the workflow history on the ![image alt]()
+You can view the workflow history on the ![image alt](https://github.com/Mbonikazi/RaceDay/blob/bcbdade7cf518a4d9090133146b6c68e1d1f6591/Screenshot%202026-10-11%20170630.png)
 
 
 ###  Screenshot
 ![image alt](https://github.com/Mbonikazi/RaceDay/blob/42aa11453932c92f21703b006ae296fa48b179c9/Screenshot%202026-10-09%20140747.png)
 
 ## Video Presentation
-Unlisted YouTube: [https://youtu.be/akRExinh8xA](https://youtu.be/akRExinh8xA)
+Unlisted YouTube: 
