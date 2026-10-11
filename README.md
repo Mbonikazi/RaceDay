@@ -73,7 +73,7 @@ Navigate to `/swagger` after starting the API.
 
 ![image alt](https://github.com/Mbonikazi/RaceDay/blob/64d2b593c81c2ccac4ea122caa87eb77a0d5f776/Swagger%20image2.jpeg)
 
-![image alt]()
+![image alt](https://github.com/Mbonikazi/RaceDay/blob/2496ffe942d7622bfdb67a02e1a8ca3a1114f279/Screenshot_11-10-2026_15279_localhost.jpeg)
 
 ## Unit Testing
 Run in Visual Studio Test Explorer or:
