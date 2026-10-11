@@ -19,22 +19,11 @@ jobs:
         with:
           dotnet-version: '8.0.x'
 
-      - name: Show repository contents
-        run: |
-          echo "=== Root directory ==="
-          ls -la
-          echo ""
-          echo "=== Solution files found ==="
-          find . -name "*.sln" -not -path "./.git/*"
-          echo ""
-          echo "=== Project files found ==="
-          find . -name "*.csproj" -not -path "./.git/*"
-
       - name: Restore dependencies
         run: dotnet restore
 
       - name: Build solution
-        run: dotnet build --no-restore --configuration Release -p:TreatWarningsAsErrors=false -p:WarningsAsErrors= -p:Nullable=disable
+        run: dotnet build --no-restore --configuration Release
 
       - name: Run tests
         run: dotnet test --no-build --configuration Release --verbosity normal
