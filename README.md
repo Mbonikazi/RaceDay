@@ -69,6 +69,9 @@ Session-based. After login, `UserId` and `Role` are stored in session. Protected
 
 ## Swagger
 Navigate to `/swagger` after starting the API.
+![image alt](https://github.com/Mbonikazi/RaceDay/blob/d630c17f3dffcf8be87aa0172d003577fedadd82/Swagger%20image.jpeg)
+![image alt]()
+![image alt]()
 
 ## Unit Testing
 Run in Visual Studio Test Explorer or:
@@ -81,8 +84,6 @@ GitHub Actions builds and tests on every push/PR to `main`.
 
 ###  Screenshot
 ![image alt](https://github.com/Mbonikazi/RaceDay/blob/42aa11453932c92f21703b006ae296fa48b179c9/Screenshot%202026-10-09%20140747.png)
-![image alt](https://github.com/Mbonikazi/RaceDay/blob/d630c17f3dffcf8be87aa0172d003577fedadd82/Swagger%20image.jpeg)
-![image alt]()
-![image alt]()
+
 ## Video Presentation
 Unlisted YouTube: [https://youtu.be/akRExinh8xA](https://youtu.be/akRExinh8xA)
