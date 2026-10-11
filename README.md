@@ -75,11 +75,18 @@ Navigate to `/swagger` after starting the API.
 
 ![image alt](https://github.com/Mbonikazi/RaceDay/blob/2496ffe942d7622bfdb67a02e1a8ca3a1114f279/Screenshot_11-10-2026_15279_localhost.jpeg)
 
-## Unit Testing
-Run in Visual Studio Test Explorer or:
-```
-dotnet test
-```
+## 🧪 Unit Testing
+
+The test project **`RaceDay.Api.Tests`** uses **xUnit** with **EF Core InMemory** for isolated, dependency-free tests.
+
+### Test Coverage
+
+| Test File | What It Tests |
+|-----------|---------------|
+| `PasswordHasherTests.cs` | Hashing, verification, case sensitivity |
+| `AuthTests.cs` | Registration, login, duplicate email detection, role assignment |
+| `RoleAndSessionTests.cs` | Role enforcement, session keys, access rules |
+| `ModelRelationshipTests.cs` | Entity relationships (1-to-many, 1-to-1), ownership rules |
 
 ## CI/CD
 GitHub Actions builds and tests on every push/PR to `main`.
